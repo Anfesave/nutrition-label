@@ -22,5 +22,3 @@ jobs:
             pytest –-junitxml=test-results/junit.xml
       - store_test_results:
           path: test-results
-
-
