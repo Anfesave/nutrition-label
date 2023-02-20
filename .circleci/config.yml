@@ -13,7 +13,6 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            apt install -y  apturl
             pip install -r requirements.txt
       - run:
           name: run tests
